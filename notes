@@ -1,0 +1,61 @@
+Mini Projet 02:
+
+
+Exo 01: done
+- download avec IMDB
+
+Exo 02: done (maissa à finir)
+- Size des files
+- fonction 
+
+Exo 03: hafsa
+- Number of actual movies, actors
+- Lists of movies, actors
+
+Exo 04: 
+- Questions about the lists
+
+Exo 05: maissa
+- Write functions :
+		1. search_movie 
+		2. get_movie
+		3. search_actor
+		4. get_actor
+		5. movie_path
+		Important remarks: movie_path is tricky. You need to try to implement it but you 		are allowed to fail. If you are stuck for too long, please explain what you did/try and what blocked you in your opinion. Then move on.
+		
+Exo 06:
+- Build a Web server with the rotes:
+		1. /movies/{id} hafsa
+		2. /movies hafsa
+		3. /actors/{id} maissa
+		4. /actors maissa
+		5. /actors/{id}/costars maissa
+		6. /search/actors/{searchString} hafsa
+		7. /search/movies/{searchString} hafsa
+		8. /actors/{id_origin}/distance/{id_destination} maissa
+with the conditions :
+		1. All errors should have the same format.
+		2. In absence of error, the API should always return a json
+		3. Each route must be documented with the return format, possible errors, and an explanation of parameters
+		4. Each route that returns a list should return a maximum of 100 elements and should accept URL parameters start and limit to display limit elements starting from the start-th element. For example: /actors should return the first 100 authors, /actors?start=100 displays the next 100, and /actors?start=200&limit=2 displays the next 2 elements
+		5. For each route that returns a list, the returned elements should be sortable based on a given field using a URL parameter order. For example: /movies?order=year displays the first 100 movies sorted by year
+		
+Exo 07:
+- Utiliser pytest pour écrire un programme qui teste l API préc
+
+Exo 08:
+- Créer un serveur web (avec python et flask) qui utilise l API créé précédemment, pour afficher :
+		- The complete list of movies and the complete list of costars of an actor, possibly sorted alphabetically. This actor can be searched beforehand using a substring of characters appearing in her name
+		- The colloration distance between two actors. As above, the actors can be searched beforehand using a substring of characters appearing in their names. Try to format a bit (not too much). For example:
+			1. The collaboration distance between Kevin Bacon and Jean Dujardin is 2
+			2. Kevin bacon played in Wild things with Bill Murray
+			3. Bill Murray played in The Monuments Men with Jean Dujardin
+			
+		
+		
+		
+		
+		
+		
+		
