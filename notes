@@ -24,7 +24,7 @@ Exo 05: done
 		5. movie_path
 		Important remarks: movie_path is tricky. You need to try to implement it but you 		are allowed to fail. If you are stuck for too long, please explain what you did/try and what blocked you in your opinion. Then move on.
 		
-Exo 06: here 
+Exo 06: done
 - Build a Web server with the rotes:
 		1. /movies/{id} hafsa
 		2. /movies hafsa
