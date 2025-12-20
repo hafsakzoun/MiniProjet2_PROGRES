@@ -4,18 +4,18 @@ Mini Projet 02:
 Exo 01: done
 - download avec IMDB
 
-Exo 02: done (maissa à finir)
+Exo 02: done
 - Size des files
 - fonction 
 
-Exo 03: hafsa
+Exo 03: done (reste exp and prompt je pense)
 - Number of actual movies, actors
 - Lists of movies, actors
 
-Exo 04: 
+Exo 04: done
 - Questions about the lists
 
-Exo 05: maissa
+Exo 05: done
 - Write functions :
 		1. search_movie 
 		2. get_movie
@@ -24,7 +24,7 @@ Exo 05: maissa
 		5. movie_path
 		Important remarks: movie_path is tricky. You need to try to implement it but you 		are allowed to fail. If you are stuck for too long, please explain what you did/try and what blocked you in your opinion. Then move on.
 		
-Exo 06:
+Exo 06: here 
 - Build a Web server with the rotes:
 		1. /movies/{id} hafsa
 		2. /movies hafsa
