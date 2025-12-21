@@ -41,10 +41,10 @@ with the conditions :
 		4. Each route that returns a list should return a maximum of 100 elements and should accept URL parameters start and limit to display limit elements starting from the start-th element. For example: /actors should return the first 100 authors, /actors?start=100 displays the next 100, and /actors?start=200&limit=2 displays the next 2 elements
 		5. For each route that returns a list, the returned elements should be sortable based on a given field using a URL parameter order. For example: /movies?order=year displays the first 100 movies sorted by year
 		
-Exo 07: done (reste que le tester)
+Exo 07: Done
 - Utiliser pytest pour écrire un programme qui teste l API préc
 
-Exo 08: à faire 
+Exo 08: Done
 - Créer un serveur web (avec python et flask) qui utilise l API créé précédemment, pour afficher :
 		- The complete list of movies and the complete list of costars of an actor, possibly sorted alphabetically. This actor can be searched beforehand using a substring of characters appearing in her name
 		- The colloration distance between two actors. As above, the actors can be searched beforehand using a substring of characters appearing in their names. Try to format a bit (not too much). For example:
